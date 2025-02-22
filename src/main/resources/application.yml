@@ -1,0 +1,3 @@
+spring:
+  application:
+    name: ai_dev_runner
