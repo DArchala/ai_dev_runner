@@ -4,13 +4,11 @@ import lombok.extern.slf4j.Slf4j;
 import org.example.ai_dev_runner.BaseTest;
 import org.example.ai_dev_runner.global.utils.UrlProvider;
 import org.example.ai_dev_runner.global.should_be_hidden.BearerToken;
-import org.example.ai_dev_runner.s01e01_1.dto.request.OpenAiRequest;
-import org.example.ai_dev_runner.s01e01_1.dto.response.OpenAiResponse;
+import org.example.ai_dev_runner.s01e01_1.OpenAiRequest;
+import org.example.ai_dev_runner.s01e01_1.OpenAiResponse;
 import org.example.ai_dev_runner.shared.FileUtil;
 import org.junit.jupiter.api.Test;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
-import org.springframework.web.client.RestClient;
 
 @Slf4j
 @SuppressWarnings("all")

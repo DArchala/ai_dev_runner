@@ -1,6 +1,4 @@
-package org.example.ai_dev_runner.s01e01_1.dto.request;
-
-import org.example.ai_dev_runner.s01e01_1.dto.response.MessageResponse;
+package org.example.ai_dev_runner.s01e01_1;
 
 import java.util.List;
 
